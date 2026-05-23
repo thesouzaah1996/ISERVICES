@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: faturamento
+
+server:
+  port: 8083
+
