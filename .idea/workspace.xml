@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="534ee6ad-7b23-48d8-bff3-aa84081ba640" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/faturamentoo/faturamento/src/main/java/io/github/cursodsousa/icompras/faturamento/api/BucketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faturamentoo/faturamento/src/main/java/io/github/cursodsousa/icompras/faturamento/bucket/BucketFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faturamentoo/faturamento/src/main/java/io/github/cursodsousa/icompras/faturamento/bucket/BucketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faturamentoo/faturamento/src/main/java/io/github/cursodsousa/icompras/faturamento/config/BucketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faturamento/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faturamento/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faturamento/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faturamento/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faturamento/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faturamento/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faturamento/src/main/java/io/github/cursodsousa/icompras/faturamento/FaturamentoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faturamento/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faturamento/src/test/java/io/github/cursodsousa/icompras/faturamento/FaturamentoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/PedidosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/PedidosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/controller/PedidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/controller/RecebimentoCallbackPagamentoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/controller/RecebimentoCallbackPagamentoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/controller/dto/AdicaoNovoPagamentoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/controller/dto/AdicaoNovoPagamentoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/controller/dto/RecebimentoCallbackPagamentoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/controller/dto/RecebimentoCallbackPagamentoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/model/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/model/exception/ItemNaoEncontradoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/model/exception/ItemNaoEncontradoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/publisher/DetalhePedidoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/publisher/DetalhePedidoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/publisher/PagamentoPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/publisher/PagamentoPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/publisher/representation/DetalheItemPedidoRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/publisher/representation/DetalheItemPedidoRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/publisher/representation/DetalhePedidoRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/publisher/representation/DetalhePedidoRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/repository/ItemPedidoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/repository/ItemPedidoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/repository/PedidoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/repository/PedidoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/java/io/github/cursodsousa/icompras/pedidos/service/PedidoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pedidos/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/bucket/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/bucket/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/base/16387/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/base/16387/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/base/16388/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/base/16388/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/base/16389/16399" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/base/16389/16399" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/base/16389/16400" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/base/16389/16400" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/base/16389/16408" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/base/16389/16408" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/base/16389/16410" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/base/16389/16410" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/base/16389/16411" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/base/16389/16411" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/base/16389/16415" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/base/16389/16415" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/base/16389/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/base/16389/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/global/pg_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/global/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/pg_wal/000000010000000000000002" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/pg_wal/000000010000000000000002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/database/data/pg_xact/0000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/database/data/postmaster.pid" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3E8VapP808GXt8jG3CgxC5ZQ6zm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Faturamento.executor": "Debug",
+    "Maven.faturamento [clean,install].executor": "Run",
+    "Maven.faturamento [clean].executor": "Run",
+    "Maven.faturamento [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Faturamento">
+    <configuration name="Clientes" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="io.github.cursodsousa.icompras.clientes.ClientesApplication" />
+      <module name="clientes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Faturamento" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="io.github.cursodsousa.icompras.faturamento.FaturamentoApplication" />
+      <module name="faturamento" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pedidos" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="io.github.cursodsousa.icompras.pedidos.PedidosApplication" />
+      <module name="pedidos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Produtos" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="io.github.cursodsousa.icompras.produtos.ProdutosApplication" />
+      <module name="produtos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Servicos" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="io.github.cursodsousa.icompras.servicos.ServicosApplication" />
+      <module name="servicos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Clientes" />
+      <item itemvalue="Application.Faturamento" />
+      <item itemvalue="Application.Pedidos" />
+      <item itemvalue="Application.Produtos" />
+      <item itemvalue="Application.Servicos" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="534ee6ad-7b23-48d8-bff3-aa84081ba640" name="Changes" comment="" />
+      <created>1779560254543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779560254543</updated>
+    </task>
+    <servers />
+  </component>
+</project>

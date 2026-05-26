@@ -2,9 +2,8 @@ package io.github.cursodsousa.icompras.pedidos.controller.dto;
 
 import io.github.cursodsousa.icompras.pedidos.model.TipoPagamento;
 
-public record AdicionarNovoPagamentoDTO(
+public record AdicaoNovoPagamentoDTO(
         Long codigoPedido,
-        String dadosCartao,
+        String  dados,
         TipoPagamento tipoPagamento
-) {
-}
+) {}
